@@ -7,6 +7,7 @@ async function fetchData(urlApi) {
     return data;
 }
 
+//comentario
 const anotherFunction = async (urlApi) => {
     try {
         const products = await fetchData(`${API}/products`);
